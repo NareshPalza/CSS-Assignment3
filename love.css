@@ -1,0 +1,258 @@
+body {
+    border: 1px solid rgb(249, 245, 245);
+    border-radius: 12px;
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.announcement {
+    display: flex;
+    background: #f7f7f7;
+    padding: 20px;
+    justify-content: center;
+}
+
+.announcement-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+/* banner */
+.banner {
+    background-color: rgb(254, 253, 253);
+    padding: 5px 70px 5px 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid rgb(241, 237, 237);
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.img-logo {
+    width: 10%;
+}
+
+.banner-nav {
+    padding: 5px 5px 5px 20px;
+    border: 1px solid light gray;
+    box-shadow: 2px 2px 2px 2px lightgray;
+    font-size: 14px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 22%;
+    height: 45px;
+    box-sizing: border-box;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.seperator {
+    border: 1px solid lightgray;
+    height: 20px;
+}
+
+.img-banner-magnifier {
+    height: 30px;
+}
+
+.banner-nav-bold-text {
+    font-weight: 600;
+}
+
+.banner-nav-lite-text {
+    color: gray;
+}
+
+
+.banner-right-nav {
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+}
+
+.banner-btn {
+    padding: 10px;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.globe-btn {
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+}
+
+.btn-user {
+    padding: 5px 10px;
+    border-radius: 30px;
+    border: 1px solid lightgray;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.img-menu {
+    width: 18px;
+}
+
+.img-user {
+    width: 35px;
+}
+
+/*Page content*/
+.page-content {
+    padding: 20px 80px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.sub-navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sub-nav-icons {
+    width: 20px;
+    background-color: white;
+    color: gray;
+}
+
+.sub-nav-img-text {
+    font-size: 12px;
+    font-family: sans-serif;
+    color: gray;
+    margin-top: 10px;
+}
+
+.icons-nav {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons-nav-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sub-nav-btn-1 {
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 7%;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.sub-nav-filter-icon {
+    width: 20px;
+}
+
+.sub-nav-btn-2 {
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    ;
+    padding: 10px;
+    width: 17%;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 26px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 21px;
+    width: 21px;
+    left: 4px;
+    bottom: 3px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.sub-nav-btn-text {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/*Listings*/
+.listing-row {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+.listing-img-content {
+    position: relative;
+    width: 25%;
+}
+.listing-img {
+    width: 100%;
+    border-radius: 12px;
+    height: 300px;
+}
